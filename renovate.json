@@ -1,8 +1,14 @@
 {
-  "packageRules": [{
-    "matchPackagePrefixes": ["node"],
-    "addLabels": ["node"]
-  }],
+  "packageRules": [
+    {
+      "addLabels": [
+        "node"
+      ],
+      "matchPackageNames": [
+        "node{/,}**"
+      ]
+    }
+  ],
   "configMigration": false,
   "dependencyDashboard": true
 }
