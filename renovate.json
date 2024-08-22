@@ -4,8 +4,8 @@
       "addLabels": [
         "node"
       ],
-      "matchPackageNames": [
-        "node{/,}**"
+      "matchPackagePrefixes": [
+        "node"
       ]
     }
   ],
