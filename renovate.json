@@ -3,5 +3,6 @@
     "matchPackagePrefixes": ["node"],
     "addLabels": ["node"]
   }],
-  "configMigration": false
+  "configMigration": false,
+  "dependencyDashboard": true
 }
